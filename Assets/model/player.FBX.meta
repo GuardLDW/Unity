@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 64e4ce6fb9a678d44bedfb13245b2460
+timeCreated: 1482235654
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: alpha_MZ
+    100004: arm_01
+    100006: back_MZ
+    100008: batsu_mayu
+    100010: body_MZ
+    100012: default_MZ
+    100014: eyeball_l
+    100016: eyeball_r
+    100018: front_MZ
+    100020: head
+    100022: head_set_MZ
+    100024: head_set_MZ_1
+    100026: head_set_MZ_2
+    100028: ITM000_KOSI_BATSU
+    100030: leglight
+    100032: nail
+    100034: oral
+    100036: outer_MZ
+    100038: shorts_N2Z
+    100040: skirt_MZ
+    100042: skirt_MZ_1
+    100044: sleeve_MZ
+    100046: sleevelight
+    100048: tail_l
+    100050: tie_MZ
+    100052: tights_N2Z
+    100054: tooth
+    100056: tung
+    100058: "VR\u592A\u963301"
+    100060: "VR\u592A\u963301.Target"
+    100062: "VR\u5E73\u976201"
+    400000: //RootNode
+    400002: alpha_MZ
+    400004: arm_01
+    400006: back_MZ
+    400008: batsu_mayu
+    400010: body_MZ
+    400012: default_MZ
+    400014: eyeball_l
+    400016: eyeball_r
+    400018: front_MZ
+    400020: head
+    400022: head_set_MZ
+    400024: head_set_MZ_1
+    400026: head_set_MZ_2
+    400028: ITM000_KOSI_BATSU
+    400030: leglight
+    400032: nail
+    400034: oral
+    400036: outer_MZ
+    400038: shorts_N2Z
+    400040: skirt_MZ
+    400042: skirt_MZ_1
+    400044: sleeve_MZ
+    400046: sleevelight
+    400048: tail_l
+    400050: tie_MZ
+    400052: tights_N2Z
+    400054: tooth
+    400056: tung
+    400058: "VR\u592A\u963301"
+    400060: "VR\u592A\u963301.Target"
+    400062: "VR\u5E73\u976201"
+    2300000: alpha_MZ
+    2300002: arm_01
+    2300004: back_MZ
+    2300006: batsu_mayu
+    2300008: body_MZ
+    2300010: default_MZ
+    2300012: eyeball_l
+    2300014: eyeball_r
+    2300016: front_MZ
+    2300018: head
+    2300020: head_set_MZ
+    2300022: head_set_MZ_1
+    2300024: head_set_MZ_2
+    2300026: ITM000_KOSI_BATSU
+    2300028: leglight
+    2300030: nail
+    2300032: oral
+    2300034: outer_MZ
+    2300036: shorts_N2Z
+    2300038: skirt_MZ
+    2300040: skirt_MZ_1
+    2300042: sleeve_MZ
+    2300044: sleevelight
+    2300046: tail_l
+    2300048: tie_MZ
+    2300050: tights_N2Z
+    2300052: tooth
+    2300054: tung
+    3300000: alpha_MZ
+    3300002: arm_01
+    3300004: back_MZ
+    3300006: batsu_mayu
+    3300008: body_MZ
+    3300010: default_MZ
+    3300012: eyeball_l
+    3300014: eyeball_r
+    3300016: front_MZ
+    3300018: head
+    3300020: head_set_MZ
+    3300022: head_set_MZ_1
+    3300024: head_set_MZ_2
+    3300026: ITM000_KOSI_BATSU
+    3300028: leglight
+    3300030: nail
+    3300032: oral
+    3300034: outer_MZ
+    3300036: shorts_N2Z
+    3300038: skirt_MZ
+    3300040: skirt_MZ_1
+    3300042: sleeve_MZ
+    3300044: sleevelight
+    3300046: tail_l
+    3300048: tie_MZ
+    3300050: tights_N2Z
+    3300052: tooth
+    3300054: tung
+    4300000: ITM000_KOSI_BATSU
+    4300002: leglight
+    4300004: skirt_MZ
+    4300006: head_set_MZ_1
+    4300008: alpha_MZ
+    4300010: tights_N2Z
+    4300012: arm_01
+    4300014: head_set_MZ
+    4300016: shorts_N2Z
+    4300018: body_MZ
+    4300020: outer_MZ
+    4300022: sleeve_MZ
+    4300024: sleevelight
+    4300026: nail
+    4300028: head_set_MZ_2
+    4300030: head
+    4300032: eyeball_l
+    4300034: eyeball_r
+    4300036: oral
+    4300038: tung
+    4300040: tooth
+    4300042: batsu_mayu
+    4300044: front_MZ
+    4300046: skirt_MZ_1
+    4300048: back_MZ
+    4300050: default_MZ
+    4300052: tie_MZ
+    4300054: tail_l
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
