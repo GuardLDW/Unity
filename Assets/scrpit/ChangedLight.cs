@@ -5,9 +5,13 @@ using System;
 
 public class ChangedLight : MonoBehaviour {
 	
+
 	public Light light;
 
 	private string lightColor;
+
+	//记录当前昼夜总数
+	public static int totalTime = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -56,6 +60,8 @@ public class ChangedLight : MonoBehaviour {
 			lightColor = "yellow";
 
 		}
+
+		ChangedLight.totalTime++;
 
 
 	}
