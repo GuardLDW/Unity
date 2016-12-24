@@ -22,11 +22,11 @@ public class Player : MonoBehaviour {
 		if (Input.GetKey(KeyCode.A)){
 
 			//逆时针（向左转）
-			this.transform.Rotate(Vector3.down, Space.World);
+			this.transform.Rotate(Vector3.down * 2, Space.World);
 
 		}else if(Input.GetKey(KeyCode.D)){
 			
-			this.transform.Rotate(Vector3.up, Space.World);
+			this.transform.Rotate(Vector3.up * 2, Space.World);
 			
 		}
 

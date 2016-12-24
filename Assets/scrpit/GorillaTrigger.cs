@@ -7,7 +7,7 @@ public class GorillaTrigger : MonoBehaviour {
 		
 		if(collider.tag == "Player"){
 			
-			print ("die");
+			Destroy(gameObject);
 		}
 	}
 }

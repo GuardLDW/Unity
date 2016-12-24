@@ -50,8 +50,13 @@
      <Compile Include="Assets\scrpit\CoinTrigger.cs" />
      <Compile Include="Assets\scrpit\Gorilla.cs" />
      <Compile Include="Assets\scrpit\GorillaTrigger.cs" />
+     <Compile Include="Assets\scrpit\HighScore.cs" />
      <Compile Include="Assets\scrpit\Player.cs" />
      <Compile Include="Assets\scrpit\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\scrpit\button\exitGameButton.cs" />
+     <Compile Include="Assets\scrpit\button\highScoreButton.cs" />
+     <Compile Include="Assets\scrpit\button\meauButton.cs" />
+     <Compile Include="Assets\scrpit\button\startgameButton.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
