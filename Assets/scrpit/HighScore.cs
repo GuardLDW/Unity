@@ -7,25 +7,16 @@ public class HighScore : MonoBehaviour {
 	[SerializeField]
 	public Text highScoreText;
 
-	public int highScore;
 
 	// Use this for initialization
 	void Start () {
 
-		highScoreText.text = "high score : " + 0;
-		highScore = 0;
-	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		if (Player.totalScore > highScore) {
+		highScoreText.text = "high score : " + GameOver.highScore;;
 
-			highScore = Player.totalScore;
-		}
-
-		highScoreText.text = "high score : " + highScore;
-	
 	}
 }

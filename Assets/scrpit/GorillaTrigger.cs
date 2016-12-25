@@ -8,6 +8,7 @@ public class GorillaTrigger : MonoBehaviour {
 		if(collider.tag == "Player"){
 			
 			Destroy(gameObject);
+			Application.LoadLevel("GameOver");
 		}
 	}
 }

@@ -48,11 +48,6 @@ public class Gorilla : MonoBehaviour {
 			
 	}
 
-	private void attackPlayer(){
-
-		Player.totalScore = 0;
-
-	}
 
 
 

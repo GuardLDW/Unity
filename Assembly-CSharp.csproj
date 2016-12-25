@@ -48,6 +48,7 @@
      <Compile Include="Assets\scrpit\ChangedLight.cs" />
      <Compile Include="Assets\scrpit\Coin.cs" />
      <Compile Include="Assets\scrpit\CoinTrigger.cs" />
+     <Compile Include="Assets\scrpit\GameOver.cs" />
      <Compile Include="Assets\scrpit\Gorilla.cs" />
      <Compile Include="Assets\scrpit\GorillaTrigger.cs" />
      <Compile Include="Assets\scrpit\HighScore.cs" />

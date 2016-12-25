@@ -19,12 +19,12 @@ public class Player : MonoBehaviour {
 	void Update () {
 
 		//旋转
-		if (Input.GetKey(KeyCode.A)){
+		if (Input.GetKey(KeyCode.Q)){
 
 			//逆时针（向左转）
 			this.transform.Rotate(Vector3.down * 2, Space.World);
 
-		}else if(Input.GetKey(KeyCode.D)){
+		}else if(Input.GetKey(KeyCode.E)){
 			
 			this.transform.Rotate(Vector3.up * 2, Space.World);
 			
@@ -39,6 +39,14 @@ public class Player : MonoBehaviour {
 		}else if(Input.GetKey(KeyCode.S)){
 
 			this.transform.Translate(Vector3.back / 3, Space.Self);
+			
+		}else if(Input.GetKey(KeyCode.A)){
+			
+			this.transform.Translate(Vector3.left / 3, Space.Self);
+			
+		}else if(Input.GetKey(KeyCode.D)){
+			
+			this.transform.Translate(Vector3.right / 3, Space.Self);
 			
 		}
 
