@@ -33,16 +33,27 @@ public class Gorilla : MonoBehaviour {
 		distanceToPlayer = Vector3.Distance (this.gameObject.transform.position, player.transform.position);
 		distanceToFirst = Vector3.Distance (this.gameObject.transform.position, new Vector3(firstX, firstY, firstZ));
 
-		if (distanceToPlayer < patrolDistance && distanceToFirst < patrolDistance) {
+		//怪物只在白天移动
+		if (ChangedLight.totalTime % 2 == 0) {
 
-			//移动到指定位置:人物位置
-			this.transform.localPosition = Vector3.MoveTowards (this.transform.localPosition, player.transform.localPosition, 0.5f);
+			if (distanceToPlayer < patrolDistance && distanceToFirst < patrolDistance) {
+				
+				//移动到指定位置:人物位置
+				this.transform.localPosition = Vector3.MoveTowards (this.transform.localPosition, player.transform.localPosition, 0.2f);
+				
+			} else if (distanceToFirst >= patrolDistance) {
+				
+				this.transform.localPosition = Vector3.MoveTowards (this.transform.localPosition, new Vector3 (firstX, firstY, firstZ), 0.5f);
+				
+			}
 
-		} else if(distanceToPlayer >= patrolDistance || distanceToFirst >= patrolDistance){
+		} else {
 
-			this.transform.localPosition = Vector3.MoveTowards (this.transform.localPosition, new Vector3(firstX, firstY, firstZ), 0.5f);
 
 		}
+
+
+
 		 
 
 			

@@ -16,8 +16,7 @@ public class ChangedLight : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		lightColor = "yellow";
-		light.color = Color.yellow;
+		lightColor = "cyan";
 
 		//白天与黑夜各持续24s
 		System.Timers.Timer t = new System.Timers.Timer(24000);
@@ -31,9 +30,9 @@ public class ChangedLight : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (lightColor.Equals ("yellow")) {
+		if (lightColor.Equals ("cyan")) {
 			
-			light.color = Color.yellow;
+			light.color = Color.cyan;
 			
 		} else if (lightColor.Equals ("black")) {
 			
@@ -51,13 +50,13 @@ public class ChangedLight : MonoBehaviour {
 	//控件的颜色只能在主线程中修改，所以该子线程中改变颜色的标志状态
 	public void changeLight(){
 
-		if (lightColor.Equals ("yellow")) {
+		if (lightColor.Equals ("cyan")) {
 
 			lightColor = "black";
 
 		} else if (lightColor.Equals ("black")) {
 
-			lightColor = "yellow";
+			lightColor = "cyan";
 
 		}
 

@@ -7,6 +7,7 @@ public class Player : MonoBehaviour {
 
 	[SerializeField]
 	private Text scoreText;
+	
 
 	public static int totalScore = 0;
 
@@ -49,6 +50,19 @@ public class Player : MonoBehaviour {
 			this.transform.Translate(Vector3.right / 3, Space.Self);
 			
 		}
+
+		//一段跳
+
+		if (Input.GetKeyDown(KeyCode.Space)) {
+
+				this.transform.localPosition = Vector3.MoveTowards (this.transform.localPosition, new Vector3(this.transform.position.x, 6, this.transform.position.z), 1f);
+
+		}else if (Input.GetKeyUp(KeyCode.Space)) {
+			
+			this.transform.localPosition = Vector3.MoveTowards (this.transform.localPosition, new Vector3(this.transform.position.x, 0 , this.transform.position.z), 1f);
+			
+		}
+
 
 		scoreText.text = "SCORE:" + Player.totalScore;
 
